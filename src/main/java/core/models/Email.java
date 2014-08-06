@@ -15,22 +15,22 @@ public interface Email {
     public void setDate(Date date);
 
     @JsonProperty(value = "from", required = true)
-    public Date getFrom();
+    public String getFrom();
 
     public void setFrom(String from);
 
     @JsonProperty(value = "to", required = true)
-    public Date getTo();
+    public String getTo();
 
     public void setTo(String to);
 
     @JsonProperty(value = "subject", required = true)
-    public Date getSubject();
+    public String getSubject();
 
     public void setSubject(String subject);
 
     @JsonProperty(value = "content", required = true)
-    public Date getContent();
+    public String getContent();
 
     public void setContent(String content);
 }

@@ -37,6 +37,12 @@
               </excludes>
             </filter>
           </filters>
+          <artifactSet>
+            <excludes>
+              <exclude>com.codahale.metris:*</exclude>
+              <exclude>com.fasterxml.jackson.*:*</exclude>
+            </excludes>
+          </artifactSet>
         </configuration>
       </plugin>
       <plugin>

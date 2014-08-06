@@ -38,6 +38,20 @@
                             </excludes>
                         </filter>
                     </filters>
+                    <artifactSet>
+                        <excludes>
+                            <exclude>com.codahale.metrics:*</exclude>
+                            <exclude>com.fasterxml.jackson.*:*</exclude>
+                            <exclude>org.eclipse.jetty.*:*</exclude>
+                            <exclude>org.eclipse.jetty:*</exclude>
+                            <exclude>io.dropwizard:*</exclude>
+                            <exclude>com.google.*:*</exclude>
+                            <exclude>com.sun.jersey.*:*</exclude>
+                            <exclude>com.sun.jersey:*</exclude>
+                            <exclude>org.slf4j:*</exclude>
+                            <exclude>net.sourceforge.argparse4j:*</exclude>
+                        </excludes>
+                    </artifactSet>
                 </configuration>
                 <executions>
                     <execution>

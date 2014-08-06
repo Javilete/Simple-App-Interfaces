@@ -2,4 +2,5 @@
 mvn package
 
 #Publish locally to .m2 repository
-mvn org.apache.maven.plugins:maven-install-plugin:2.5.1:install-file  -Dfile=target/simple-app-interfaces-1.0.1-SNAPSHOT.jar -DgroupId=com.app.interfaces -DartifactId=simple-app-interfaces -Dversion=1.0.1-SNAPSHOT -Dpackaging=jar
+mvn install
+#mvn org.apache.maven.plugins:maven-install-plugin:2.5.1:install-file  -Dfile=target/simple-app-interfaces-1.0.1-SNAPSHOT.jar -DgroupId=com.app.interfaces -DartifactId=simple-app-interfaces -Dversion=1.0.1-SNAPSHOT -Dpackaging=jar
